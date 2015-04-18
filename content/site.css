@@ -1,0 +1,94 @@
+.card {
+	width: 211px;
+	height: 268px;
+  	border: 1px solid black;
+	color: black;
+	cursor: pointer;
+	padding: 0px;
+}
+.face-up {
+	background-color: gray;
+	-webkit-transform-style: preserve-3d;
+  	-webkit-transition: 0.5s;
+}
+.face-down {
+	background-color: #ED884C;
+	-webkit-transform-style: preserve-3d;
+  	-webkit-transition: 0.5s;
+}
+.matched {
+	visibility: hidden;
+}
+.invisible-result {
+	visibility: hidden;
+}
+.visible-result {
+	width: 211px;
+	height:268px;
+}
+.jumbotron .container {
+	width: 100%;
+}
+#content {
+	display: flex;
+}
+.board {
+	margin-left: auto;
+	margin-right: auto;
+}
+.row {
+	margin: 0px 0px 0px 0px;
+}
+.jungle-panther-bg {
+	background: url(jungle-panther-background.jpg) no-repeat top left;
+}
+.jungle-elephant-bg {
+	background: url(elephant-background.jpg) no-repeat top left;
+}
+.fox-bg {
+	background: url(fox-background.jpg) no-repeat top left;
+}
+.bear-bg {
+	background: url(bear-background.jpg) no-repeat top left;
+}
+
+.sprite-badger{
+	background: url(animals.png) no-repeat top left; 
+	background-position: 0 0; width: 211px; height: 268px;
+} 
+.sprite-bear{
+	background: url(animals.png) no-repeat top left; 
+	background-position: 0 -318px; width: 211px; height: 268px;
+} 
+.sprite-elephant{
+	background: url(animals.png) no-repeat top left;
+	background-position: 0 -636px; width: 211px; height: 268px;
+} 
+.sprite-fox{
+	background: url(animals.png) no-repeat top left;
+	background-position: 0 -954px; width: 211px; height: 268px;
+} 
+.sprite-giraff{
+	background: url(animals.png) no-repeat top left;
+	background-position: 0 -1272px; width: 211px; height: 268px;
+} 
+.sprite-kangaroo{
+	background: url(animals.png) no-repeat top left;
+	background-position: 0 -1590px; width: 211px; height: 268px;
+} 
+.sprite-mongoose{
+	background: url(animals.png) no-repeat top left;
+	background-position: 0 -1908px; width: 211px; height: 268px;
+} 
+.sprite-otter{
+	background: url(animals.png) no-repeat top left;
+	background-position: -261px 0; width: 211px; height: 268px;
+} 
+.sprite-turtle{
+	background: url(animals.png) no-repeat top left;
+	background-position: -261px -318px; width: 211px; height: 268px;
+} 
+.sprite-zebra{
+	background: url(animals.png) no-repeat top left;
+	background-position: -261px -636px; width: 211px; height: 268px;
+} 
